@@ -1,0 +1,7 @@
+FROM ubuntu
+
+MAINTAINER aniket <aniket.dehnikar@successive.tech>
+
+RUN apt-get update
+
+CMD ["echo","This is my first image..."]
